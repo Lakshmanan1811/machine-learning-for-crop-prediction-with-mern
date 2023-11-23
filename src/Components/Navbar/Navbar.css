@@ -47,7 +47,6 @@
     font-size: 20px;
     font-weight: 500;
 }
-.nav-login button:hover{
-    background: black;
-    color: white;
+.nav-login button:active{
+    background: #f3f3f3;
 }
