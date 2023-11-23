@@ -48,5 +48,6 @@
     font-weight: 500;
 }
 .nav-login button:active{
-    background: #f3f3f3;
+    background: black;
+    color: white
 }
