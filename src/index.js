@@ -2,11 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import navbar from './components/navbar';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-  <navbar />
+  <h1>Crop and Soil Recommendation System</h1>
   </React.StrictMode>
 );
 
