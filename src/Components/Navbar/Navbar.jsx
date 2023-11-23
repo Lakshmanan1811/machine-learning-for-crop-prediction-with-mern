@@ -3,7 +3,8 @@ import './Navbar.css';
 export const Navbar = () => {
     const [menu, setMenu] = useState("home")
   return (
-    <div className='navbar'>
+    
+    <div className='navbar' >
         <div className='nav-logo'>
             <p>PlantApp</p>
         </div>
@@ -17,5 +18,6 @@ export const Navbar = () => {
             <button>Login</button>
         </div>
     </div>
+    
   )
 }
